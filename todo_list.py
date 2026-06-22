@@ -3,7 +3,6 @@ def showMenu():
     print("add task")
     print("view tasks")
     print("exit")
-
 def addTask():
         task=input("enter task to add:")
         mytasks.append(task)
@@ -27,4 +26,4 @@ def main():
             else:
                   print("invalid choice")
 
-main()             
+main()           
